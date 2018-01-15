@@ -1,0 +1,14 @@
+logical Name,Value,Flag
+Login TestCases,MODULE
+Login,y
+valid_username,admin
+valid_password,
+TestCases_TextData,MODULE
+TestCase3,,y
+TestCase1_办公用品名称,铅笔
+TestCase1_计量单位,个
+TestCase1_办公用品类型,11
+TestCase1_供应商,IBM
+TestCase1_当前库存,10
+TestCase1_警戒库存,5
+TestCase1_办公用品描述,新增办公用品管理记录

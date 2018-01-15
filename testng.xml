@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite" verbose="2">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+
+ 	
+<!--<test name="CreateSupplyManagementRecord TestCases">
+		<classes>
+			<class name="testcases.CreateSupplyManagementRecord"></class>
+		</classes>
+</test>
+<test name="CreateSupplyManagementRecordfromExcel TestCases">
+		<classes>
+			<class name="testcases.CreateSupplyManagementRecordfromExcel"></class>
+		</classes>
+</test>
+<test name="CreateSupplyManagementRecordfromCSV TestCases">
+		<classes>
+			<class name="testcases.CreateSupplyManagementRecordfromCSV"></class>
+		</classes>
+</test>-->
+
+<test name="test1 TestCases">
+		<classes>
+			<class name="testcases.test1"></class>
+		</classes>
+</test>
+</suite>
